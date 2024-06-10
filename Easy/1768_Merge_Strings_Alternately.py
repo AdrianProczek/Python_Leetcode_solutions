@@ -49,3 +49,4 @@ class Solution:
             if i < len(word2):
                 output += word2[i]
         return output
+        
