@@ -44,6 +44,15 @@
 # - The fourth student is not moved.
 # In total, 1 + 3 + 0 + 0 = 4 moves were used.
 
+ 
+
+# Constraints:
+
+#     n == seats.length == students.length
+#     1 <= n <= 100
+#     1 <= seats[i], students[j] <= 100
+
+
 class Solution:
     def minMovesToSeat(self, seats: List[int], students: List[int]) -> int:
         
